@@ -1,0 +1,14 @@
+D:\mycode\csharp\probleme\probleme\bin\Debug\net7.0\probleme.exe
+D:\mycode\csharp\probleme\probleme\bin\Debug\net7.0\probleme.deps.json
+D:\mycode\csharp\probleme\probleme\bin\Debug\net7.0\probleme.runtimeconfig.json
+D:\mycode\csharp\probleme\probleme\bin\Debug\net7.0\probleme.dll
+D:\mycode\csharp\probleme\probleme\bin\Debug\net7.0\probleme.pdb
+D:\mycode\csharp\probleme\probleme\obj\Debug\net7.0\probleme.GeneratedMSBuildEditorConfig.editorconfig
+D:\mycode\csharp\probleme\probleme\obj\Debug\net7.0\probleme.AssemblyInfoInputs.cache
+D:\mycode\csharp\probleme\probleme\obj\Debug\net7.0\probleme.AssemblyInfo.cs
+D:\mycode\csharp\probleme\probleme\obj\Debug\net7.0\probleme.csproj.CoreCompileInputs.cache
+D:\mycode\csharp\probleme\probleme\obj\Debug\net7.0\probleme.dll
+D:\mycode\csharp\probleme\probleme\obj\Debug\net7.0\refint\probleme.dll
+D:\mycode\csharp\probleme\probleme\obj\Debug\net7.0\probleme.pdb
+D:\mycode\csharp\probleme\probleme\obj\Debug\net7.0\probleme.genruntimeconfig.cache
+D:\mycode\csharp\probleme\probleme\obj\Debug\net7.0\ref\probleme.dll

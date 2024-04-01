@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -34,5 +35,26 @@ namespace probleme
             Console.WriteLine(Functii.CateElementeMajorante(x, y));
         }
 
+        // Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once.
+        // The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
+
+        public static void Problema3()
+        {
+            List<int> nums = new List<int>{ 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
+
+            // nums = Functii.RemoveDuplicates(nums); - METODA 1
+
+            Functii.RemoveDuplicatesII(ref nums); // METODA 2
+
+            Functii.AfisareVector(nums.ToArray());
+            
+        }
+
+        public static void Problema4()
+        {
+            int[] nums = { 1, 1, 1, 3, 3, 4, 3, 2, 4, 2  };
+
+            Console.WriteLine(Functii.ContainsDuplicates(nums));
+        }
     }
 }

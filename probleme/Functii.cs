@@ -90,8 +90,48 @@ namespace probleme
             }
             return count;
         }
-    
-    }
 
-  
+        public static List<int> RemoveDuplicates(List<int> nums)
+        {
+            List<int> list = new List<int>();
+            list.Add(nums[0]);
+
+            for (int i = 1; i < nums.Count; i++)
+            {
+                if (nums[i] != list.Last())
+                {
+                    list.Add(nums[i]);
+                }
+            }
+
+            return list;
+        }
+
+        public static void RemoveDuplicatesII(ref List<int> nums)
+        {
+            for (int i = 0; i < nums.Count - 1; i++)
+            {
+                if (nums[i] == nums[i + 1])
+                {
+                    nums.RemoveAt(i);
+                    i--;
+                }
+            }
+        }
+        
+        public static bool ContainsDuplicates(int[] nums)
+        {
+            for(int i=0; i < nums.Length - 1; i++)
+            {
+                for(int j = i+1; j < nums.Length; j++)
+                {
+                    if (nums[i] == nums[j])
+                    {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+    }
 }
